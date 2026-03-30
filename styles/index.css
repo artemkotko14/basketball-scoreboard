@@ -1,0 +1,103 @@
+@font-face {
+  src: url("/fonts/cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf");
+  font-family: CursedTimerUlil;
+}
+:root {
+  --primary-color: #1b244a;
+  --secondary-color: #9aabd8;
+  --light-red: #f94f6d;
+}
+body {
+  font-family: CursedTimerUlil, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem auto 0;
+  width: 36rem;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  border: 2px solid var(--secondary-color);
+  padding: 1.75rem 5.125rem;
+  gap: 2rem;
+}
+.scores {
+  display: flex;
+  justify-content: space-between;
+}
+.team-score {
+  width: 9.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  gap: 1.3125rem;
+}
+.title {
+  width: 100%;
+  padding: 0 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 2.5rem;
+  line-height: 2.25rem;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #eeeeee;
+}
+.score {
+  background-color: #080001;
+  color: var(--light-red);
+  width: 100%;
+  border-radius: 5px;
+  font-size: 5.625rem;
+  text-align: center;
+  padding: 0 1.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  font-weight: 400;
+  line-height: 7.5rem;
+  letter-spacing: 0%;
+}
+.score span {
+  transform: translateY(6px);
+}
+.btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.btn {
+  background-color: transparent;
+  color: var(--secondary-color);
+  border-radius: 5px;
+  border: 2px solid var(--secondary-color);
+  padding: 11.5px 9.25px 9.5px;
+  cursor: pointer;
+
+  font-style: Regular;
+  font-size: 18px;
+  text-align: center;
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  outline: none;
+}
+
+.btn-flash {
+  border-color: goldenrod;
+  box-shadow: 0 0 8px goldenrod;
+}
+
+.restart-btn-wrapper {
+  text-align: center;
+}
+.restart {
+  color: var(--light-red);
+}
