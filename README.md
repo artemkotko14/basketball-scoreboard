@@ -7,7 +7,7 @@ It allows users to track scores for two teams (Home and Guest) and update them u
 
 The app was built using HTML, CSS, and JavaScript, focusing on DOM manipulation, event handling, and UI feedback.
 
-This task was completed as part of the Scrimba The Fullstack Developer Path.
+This task was completed as part of the [Scrimba The Fullstack Developer Path](https://scrimba.com/c0fullstack).
 
 ---
 
