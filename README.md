@@ -19,8 +19,8 @@ This task was completed as part of the [Scrimba The Fullstack Developer Path](ht
 
 ### Links
 
-- Solution URL: [GitHub]()
-- Live Site URL: [Webpage]()
+- Solution URL: [GitHub](https://github.com/artemkotko14/basketball-scoreboard)
+- Live Site URL: [Webpage](https://basketball-skoreboard-by-artem.netlify.app/)
 
 ---
 
